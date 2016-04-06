@@ -5,7 +5,7 @@
 wordpress_sites:
   sideshed.com:
     site_hosts:
-      - sideshed.com
+      - 192.241.227.235
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:masoninthesis/sideshed1.1.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
@@ -13,7 +13,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: false
