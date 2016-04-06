@@ -8,9 +8,9 @@ vault_sudoer_passwords:
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  example.com:
+  sideshed.com:
     env:
-      db_password: example_dbpassword
+      db_password: sideshed_dbpassword
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
       auth_key: "generateme"
       secure_auth_key: "generateme"
