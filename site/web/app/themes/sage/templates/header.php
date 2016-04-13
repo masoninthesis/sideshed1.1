@@ -1,6 +1,5 @@
 <header class="banner">
   <div class="container">
-<<<<<<< HEAD
     <ul class="list-inline">
       <li><a class="brand" href="<?= esc_url(home_url('/')); ?>"><svg class="nav-logo" height="72" width="133"><?php get_template_part( 'assets/svg/inline', 'logo.svg' ); ?></svg></a></li>
       <li class="nav-primary"><nav>
@@ -17,7 +16,6 @@
         </ul>
       </nav></li>
     </ul>
-=======
     <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
     <nav class="nav-primary">
       <?php
@@ -26,6 +24,5 @@
       endif;
       ?>
     </nav>
->>>>>>> parent of c44bdc9... Laid base styles for home page
   </div>
 </header>
