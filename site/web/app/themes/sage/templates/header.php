@@ -8,11 +8,11 @@
           wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
         endif;
         ?> -->
-        <ul class="list-inline">
-          <li>Talent</li>
-          <li>Portfolio</li>
-          <li>Services</li>
-          <li>Hire Us</li>
+        <ul class="list-inline menu">
+          <li><a href="#">Talent</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#" class="brand-primary">Hire Us</a></li>
         </ul>
       </nav></li>
     </ul>
