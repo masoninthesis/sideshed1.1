@@ -12,7 +12,7 @@
           <li><a href="#">Talent</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#" class="brand-primary btn btn-md btn-primary">Hire Us</a></li>
+          <li><a href="#" class="brand-primary">Hire Us</a></li>
         </ul>
       </nav></li>
     </ul>

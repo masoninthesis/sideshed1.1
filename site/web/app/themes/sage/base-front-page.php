@@ -39,7 +39,7 @@ use Roots\Sage\Wrapper;
     <div class="bg-img">
       <svg class="moonzags" width="800" height="720"><?php get_template_part( 'assets/svg/inline', 'moonzags.svg' ); ?></svg>
     </div>
-    <div class="container footer">
+    <div class="container navbar-fixed-bottom footer">
       <div class="footer-cell">
         <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
       </div>

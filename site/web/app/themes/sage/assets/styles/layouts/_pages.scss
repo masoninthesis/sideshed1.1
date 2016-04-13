@@ -7,20 +7,6 @@
   }
 }
 
-.btn-primary {
-  background-color: #fff;
-  border-color: #32d4af;
-  font-size: 22px;
-  line-height: 1.3em;
-  width: 96px;
-
-  &:hover {
-    background-color: #fff;
-    border-color: $brand-secondary;
-    color: $brand-secondary;
-  }
-}
-
 // End Header
 
 // Home
@@ -49,8 +35,6 @@
 }
 
 .cta {
-  padding-top: 32px;
-
   h2:nth-child(3) {
     margin-top: -46px;
   }
