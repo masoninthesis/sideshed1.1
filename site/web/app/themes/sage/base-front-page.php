@@ -18,7 +18,6 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-
     <div class="container">
       <div class="bg-borders">
         <div class="column-border col-xs-4"></div>
@@ -44,5 +43,6 @@ use Roots\Sage\Wrapper;
         <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
       </div>
     </div>
+    <?php get_template_part('templates/modal', 'home'); ?>
   </body>
 </html>
