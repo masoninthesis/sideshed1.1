@@ -1,1 +1,35 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100%;
+    overflow-y: hidden;
+}
 
+@font-face {
+   font-family: 'DenseRegular';
+   src: url("../../dist/fonts/denseregular.eot?") format("eot"),
+        url("../../dist/fonts/denseregular.woff") format("woff"),
+        url("../../dist/fonts/denseregular.ttf") format("truetype"),
+        url("../../dist/fonts/denseregular.svg#denseregular") format("svg");
+}
+
+h2 {
+  font-family: 'DenseRegular';
+  text-transform: uppercase;
+  font-size: 38px;
+}
+
+@font-face {
+   font-family: 'DINschrift';
+   src: url("../../dist/fonts/DINschrift.eot?") format("eot"),
+        url("../../dist/fonts/DINschrift.woff") format("woff"),
+        url("../../dist/fonts/DINschrift.ttf") format("truetype"),
+        url("../../dist/fonts/DINschrift.svg#DINschrift") format("svg");
+}
+
+h1 {
+  font-family: 'DINschrift';
+  text-transform: uppercase;
+  font-size: 72px;
+  margin-top: -10px;
+}
