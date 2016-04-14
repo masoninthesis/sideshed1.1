@@ -18,7 +18,6 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-
     <div class="container">
       <div class="bg-borders">
         <div class="column-border col-xs-4"></div>
@@ -39,22 +38,11 @@ use Roots\Sage\Wrapper;
     <div class="bg-img">
       <svg class="moonzags" width="800" height="720"><?php get_template_part( 'assets/svg/inline', 'moonzags.svg' ); ?></svg>
     </div>
-    <div class="container navbar-fixed-bottom footer">
+    <div class="container footer">
       <div class="footer-cell">
         <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
       </div>
     </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <?php
-      do_action('get_footer');
-      get_template_part('templates/footer');
-      wp_footer();
-    ?>
     <?php get_template_part('templates/modal', 'home'); ?>
-=======
->>>>>>> origin/master
-=======
->>>>>>> parent of 449e788... Bootstrap JS isn't firing. Reverting back for testing.
   </body>
 </html>
