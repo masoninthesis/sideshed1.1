@@ -44,5 +44,10 @@ use Roots\Sage\Wrapper;
       </div>
     </div>
     <?php get_template_part('templates/modal', 'home'); ?>
+    <?php
+      do_action('get_footer');
+      get_template_part('templates/footer');
+      wp_footer();
+    ?>
   </body>
 </html>
