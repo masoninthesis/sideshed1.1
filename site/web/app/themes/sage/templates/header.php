@@ -12,7 +12,11 @@
           <li><a href="#">Talent</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Services</a></li>
+<<<<<<< HEAD
           <li><a href="#" class="brand-primary">Hire Us</a></li>
+=======
+          <li><a href="#" class="brand-primary btn btn-md btn-primary">Hire Us</a></li>
+>>>>>>> parent of 449e788... Bootstrap JS isn't firing. Reverting back for testing.
         </ul>
       </nav></li>
     </ul>

@@ -45,6 +45,7 @@ use Roots\Sage\Wrapper;
       </div>
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');
@@ -53,5 +54,7 @@ use Roots\Sage\Wrapper;
     <?php get_template_part('templates/modal', 'home'); ?>
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 449e788... Bootstrap JS isn't firing. Reverting back for testing.
   </body>
 </html>
