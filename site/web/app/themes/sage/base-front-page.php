@@ -43,6 +43,11 @@ use Roots\Sage\Wrapper;
         <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
       </div>
     </div>
+    <?php
+      do_action('get_footer');
+      get_template_part('templates/footer');
+      wp_footer();
+    ?>
     <?php get_template_part('templates/modal', 'home'); ?>
   </body>
 </html>
