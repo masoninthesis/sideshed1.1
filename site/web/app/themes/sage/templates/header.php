@@ -9,9 +9,9 @@
         endif;
         ?> -->
         <ul class="list-inline menu">
-          <li><a href="#">Talent</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="http://sideshed.dev/talent/">Talent</a></li>
+          <li><a href="http://sideshed.dev/portfolio/">Portfolio</a></li>
+          <li><a href="http://sideshed.dev/services/">Services</a></li>
           <li><a href="#modal-home" data-toggle="modal" class="brand-primary btn btn-md btn-modal">Hire Us</a></li>
         </ul>
       </nav></li>

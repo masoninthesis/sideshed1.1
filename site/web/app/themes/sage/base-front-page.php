@@ -40,7 +40,7 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="container footer">
       <div class="footer-cell">
-        <!-- <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg> -->
+        <svg class="clients img-resposive" width="1000" height="100"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
       </div>
     </div>
     <?php get_template_part('templates/modal', 'home'); ?>
